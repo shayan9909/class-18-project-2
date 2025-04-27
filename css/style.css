@@ -1,0 +1,338 @@
+a{
+    text-decoration: none;
+}
+
+
+/* ========================common css end================================= */
+
+nav{
+    background: rgba(28, 30, 83, 1) !important;
+    padding: 16px 0 !important  ;
+}
+
+
+.nav-link{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(187, 187, 203, 1);
+    font-family: 'Poppins', sans-serif; 
+    transition: .4s;
+}
+
+.nav-link:hover{
+    color: rgba(255, 255, 255, 1) !important;
+
+}
+
+.navbar-nav{
+column-gap: 32px;
+align-items: center;
+}
+
+.btn{
+    padding: 16px 48px;
+    border-radius: 41px;
+    background: transparent;
+    border: 1px solid rgba(244, 246, 252, 0.2);
+    font-size: 16px;
+    font-weight: 500;
+color: rgba(255, 255, 255, 1);
+    font-family: 'Poppins', sans-serif;
+    margin-left: 48px;
+}
+
+.btn:hover{
+    background: #FCD980;
+  color: black;
+}
+
+/* ================navbar css end=========================== */
+/* ================banner css start=========================== */
+
+.banner{
+    background: rgba(28, 30, 83, 1);
+    padding-top: 126px;
+    padding-bottom: 128px;
+}
+.banner h1{
+    font-size: 54px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.banner p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(187, 187, 203, 1);
+    font-family: 'Poppins', sans-serif;
+width: 562px;
+margin-top: 24px;
+margin-bottom: 48px;
+}
+
+.banner a{
+    padding: 16px 56px;
+    border-radius: 41px;
+    background: #FCD980;
+    font-size: 18px;
+    font-weight: 600;
+    color:  #000;
+    font-family: "Manrope", sans-serif;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+
+.banner a:hover{
+background: transparent;
+border-color: white;
+color: white;
+}
+
+
+.col-lg-6{
+    width: 582px;
+}
+.col-lg-6 img{
+    width: 638px;
+    margin-left: 60px;
+}
+
+.banner .bt-2{
+    color: white;
+    background: transparent;
+    border: none;
+    padding: 0;
+    position: relative;
+    margin-left: 40px;
+}
+
+.bt-2 .icon {
+    position: absolute;
+    top: 6px;
+    left: 106px;
+    opacity: 0;
+    transition  : .4s;
+    font-size: 16px; 
+}
+
+ .bt-2:hover .icon{
+    opacity: 1;
+    left: 120px;
+}
+
+/* ================banner css end=========================== */
+/* ================work section css start=========================== */
+.work{
+  background: rgba(244, 246, 252, 1) ;  
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.work h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+}
+
+.work p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+    width: 405px;
+    margin: 16px 0;
+}
+ .bt-3  {   
+    position: relative; 
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #2405F2;
+}
+
+.bt-3 .icon {
+    position: absolute;
+    top: 6px;
+    left: 182px;
+    opacity: 0;
+    transition: .4s;
+    font-size: 16px;
+}
+
+.bt-3:hover .icon{
+    opacity: 1;
+    left: 190px;
+}
+
+.work .box{
+    display: flex;
+}
+
+.work  img{
+width: 50px;
+margin-left: 0;
+margin-bottom: 16px;
+}
+
+
+.work  h3{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+    margin-bottom: 8px;
+}
+
+.work  p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+  width: 303px;
+  line-height: 28px;
+  margin-bottom: 48px;
+ 
+}
+
+/* ================work section css end=========================== */
+/* ================project section css start=========================== */
+
+.project{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.project h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+}
+
+.project .box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project .bt-3{
+    color: #282938;
+}
+.project .bt-3:hover .icon {
+    opacity: 1;
+    left: 111px;
+}
+
+
+.project .bt-3 .icon {
+    opacity: 0;
+    left: 95px;
+}
+
+.heading{
+    margin-bottom: 64px;
+}
+
+
+.image-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+}
+
+.project img{
+    width: 100%;
+}
+
+.project .overlay{
+    width:50%;    
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -52%;
+    transition: .5s;
+    background-image: linear-gradient( to bottom right, rgb(28, 30, 83,0.42),#1C1E53 );
+    padding-top: 312px;
+}
+
+.project .project-box{
+    position: relative;
+    overflow: hidden;
+}
+
+.project .project-box:hover .overlay{
+    left: 0;
+}
+.project .overlay h4{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-left: 48px;
+    padding-right: 35px;
+}
+
+
+
+.project .overlay p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-left: 48px;
+    padding-right: 55px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
+
+
+.project .overlay a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #FCD980;
+    padding-left: 48px;
+}
+
+.project .overlay .icon{
+    color: #FCD980;
+    left: 156px;
+    opacity: 1;
+    top: 3px;
+
+}
+.project .overlay a:hover .icon{
+    left: 156px;
+}
+
+.ov-box{
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.image-box .overlay{
+    width: 100%;
+    top: -107%;
+    left: 0;
+    padding-top: 129px;
+}
+.ov-box:hover .overlay{
+    top: 0;
+}
+.image-box .overlay h4{
+    width: 313px;
+padding-bottom: 10px;
+}
+.o-box2 .overlay{ 
+top: 100%;
+border-radius: 20px;
+}
+
+.o-box2:hover .overlay{
+    top: 0;
+}
+
+
+/* ================project section css end=========================== */
