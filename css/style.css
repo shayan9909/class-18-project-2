@@ -337,3 +337,123 @@ border-radius: 20px;
 
 
 /* ================project section css end=========================== */
+/* ================feature section css start=========================== */
+
+
+.feature{
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+
+.feature h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+color: #282938;
+text-align: center;
+}
+.feature h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+color: #282938;
+text-align: center;
+width: 630px;
+margin: 0 auto;
+padding-top: 12px;
+padding-bottom: 47px;
+}
+
+.feature .card{
+    width: 100% !important;
+    padding: 58px 32px 48px 48px;
+    border: none;
+    border-radius: 0;
+}
+.feature .card img{
+    width: 32px;
+padding-bottom: 22px;
+}
+.feature .card-body{
+    padding: 0;
+}
+
+.feature .card .card-title{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+  padding-bottom: 12px;
+}
+
+.feature .card .card-text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+ 
+}
+
+.row{
+    row-gap: 24px;
+}
+/* ================feature section css end=========================== */
+/* ================clients section css start=========================== */
+.clients{
+    padding: 130px 0;
+    background: #F4F6FC;
+}
+
+.clients h2{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+ width: 327px;
+}
+
+.clients p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+    width: 327px;
+    padding-top: 25px;
+}
+
+.clients h3{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+padding-bottom: 48px;
+}
+
+.box{
+    display: flex;
+    
+}
+
+.clients .right{
+    padding-left: 14px ;
+    padding-top: 7px;
+}
+
+.clients .right h5{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+margin: 0;
+}
+.clients .right p{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+padding-top: 0px;
+}
+
+
+
+/* ================clients section css end=========================== */
