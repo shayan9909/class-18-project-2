@@ -401,7 +401,7 @@ padding-bottom: 22px;
 /* ================clients section css start=========================== */
 .clients{
     padding: 130px 0;
-    background: #F4F6FC;
+    background: #F4F6FC;    
 }
 
 .clients h2{
@@ -457,3 +457,84 @@ padding-top: 0px;
 
 
 /* ================clients section css end=========================== */
+/* ================faq section css start=========================== */
+
+.faq{
+    padding: 128px 0; 
+}
+ .faq  .faq-question h2{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+    width: 328px;
+ }
+ .faq a{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #2405F2;
+    margin-top: 16px;
+    display: inline-block;
+
+ }
+
+ .faq a:hover .icon{
+    left: 230px;
+ }
+
+ .faq a .icon{
+    transition: .4s;
+    left: 220px;
+ }
+ 
+ 
+.faq .accordion-button{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+}
+ 
+.faq .accordion-button span{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #2405F2;
+ margin-right: 60px;
+}
+ 
+.faq .accordion-body{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+padding: 0 100px;
+padding-bottom: 48px;
+padding-top: 16px;
+   border-bottom: 1px solid #ECECF1;
+   margin-bottom: 10px;
+
+}
+
+.faq .accordion-item{
+    border: none;
+border-bottom: 2px solid #ECECF1;
+
+border-radius: 0;
+}
+
+.accordion-button::after{
+    background-image: none !important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: none !important;
+    content: "x";
+    transform: rotate(0) translateY(-50%);
+    top: 10px;
+}
+.accordion-button::after{
+    content: "+";
+}
+
+/* ================faq section css end=========================== */
