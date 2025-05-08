@@ -1,0 +1,502 @@
+@media (min-width:320px) and (max-width:575px) {
+	.navbar-toggler {
+		color: white;
+		border: 1px solid white;
+		font-size: 16px
+	}
+
+	.navbar-collapse {
+		background: rgba(255, 255, 255, .5);
+		border-radius: 20px;
+		margin-top: 30px;
+		;
+
+	}
+
+	.navbar-nav .nav-link {
+		color: rgba(28, 30, 83, 1);
+	}
+
+	.navbar-nav .nav-link:hover {
+		color: rgba(28, 30, 83, 1) !important;
+	}
+
+	.navbar-nav {
+		row-gap: 15px !important;
+		padding: 30px 0;
+
+	}
+
+	.btn {
+		margin-left: 0;
+		background: #FCD980;
+		color: black;
+		border: none;
+		padding: 12px 32px;
+		border-radius: 20px;
+		font-size: 14px;
+	}
+
+	.nav-btn {
+		text-align: center;
+	}
+
+	.navbar-toggler:focus {
+		box-shadow: 0 0 0 !important;
+		outline: 0 !important;
+	}
+
+	/* nav bar done */
+	.banner {
+		padding-top: 50px;
+		padding-bottom: 85px;
+	}
+
+	.banner h1 {
+		font-size: 32px;
+	}
+
+	.banner p {
+		width: auto;
+		margin-top: 15px;
+		margin-bottom: 40px;
+	}
+
+	.banner a {
+		padding: 12px 28px;
+		font-size: 14px;
+		border: none;
+
+	}
+
+	.banner a:hover {
+		border-color: #FCD980;
+		background: #FCD980;
+		color: black;
+	}
+
+	.banner .bt-2:hover {
+		border-color: transparent;
+		background: transparent;
+		color: white;
+
+	}
+
+	.bt-2:hover .icon {
+		left: 148px;
+	}
+
+	.banner .col-lg-6 {
+		text-align: center;
+		width: auto;
+		padding-top: 60px;
+	}
+
+	.banner-img img {
+		width: 88%;
+
+	}
+
+	.banner-img {
+		margin-left: 0;
+	}
+
+	.banner .bt-2 {
+		margin-left: 20px;
+	}
+
+	/* banner part done */
+
+	.work {
+		padding-top: 85px;
+		padding-bottom: 85px;
+	}
+
+	.work h2 {
+		font-size: 32px;
+	}
+
+	.work p {
+		line-height: 28px;
+		margin-bottom: 15px;
+	}
+
+	.bt-3:hover .icon {
+		opacity: 0;
+		left: 190px;
+	}
+
+	.work .bt-3 {
+		padding-bottom: 55px;
+		display: inline-block;
+	}
+
+	.work .row {
+		display: block;
+	}
+
+	.work .row .box {
+		display: block;
+	}
+
+	.work img {
+		width: 30px;
+
+	}
+
+	.work h3 {
+		font-size: 24px;
+	}
+
+	.work p {
+		margin-bottom: 50px;
+		margin-top: 0;
+	}
+
+	/* work part done */
+	.project {
+		padding-top: 80px;
+		padding-bottom: 115px;
+	}
+
+	.project h2 {
+		font-size: 32px;
+	}
+
+	.project .box {
+		display: block;
+	}
+
+	.heading {
+		text-align: center;
+	}
+
+	.bt-3 {
+		font-size: 14px;
+
+	}
+
+	.project .bt-3:hover .icon {
+
+		left: 75px;
+	}
+
+	.project .bt-3 .icon {
+		top: 4px;
+		left: 75px;
+		font-size: 12px;
+		opacity: 1;
+	}
+
+	.project .project-box {
+		text-align: center;
+	}
+
+	.project img {
+		width: 88%;
+	}
+
+	.project .overlay {
+		opacity: 0;
+	}
+
+	/* project part done */
+	.feature {
+		padding: 90px 0;
+	}
+
+	.feature h2 {
+		font-size: 25px;
+		width: auto;
+	}
+
+	.feature .card img {
+		width: 24px;
+	}
+
+	.feature .card img {
+		width: 24px;
+		padding-bottom: 22px;
+	}
+
+	.feature .card img {
+		width: 24px;
+		padding-bottom: 22px;
+	}
+
+	.feature .card .card-title {
+		font-size: 20px;
+
+	}
+
+	.feature .card .card-text {
+		font-size: 14px;
+	}
+
+	.feature .card {
+		width: 80% !important;
+		padding: 35px 32px 35px 35px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+
+	}
+
+	/* feature part done */
+
+
+	.clients {
+		padding: 75px 0;
+
+	}
+
+	.clients h2 {
+		font-size: 32px;
+		width: auto;
+	}
+
+	.clients p {
+		width: auto;
+		padding-top: 16px;
+	}
+
+	.clients .row {
+		text-align: center;
+	}
+
+	.clients h3 {
+		font-size: 20px;
+		padding-bottom: 19px;
+	}
+
+	.clients .right {
+		padding-left: 10px;
+		padding-top: 11px;
+	}
+
+	.clients .right h5 {
+		font-size: 14px;
+	}
+
+	/* clients part done  */
+
+
+	.faq {
+		padding: 90px 0;
+	}
+
+	.faq .faq-question h2 {
+		font-size: 31px;
+		width: auto;
+	}
+
+	.faq a {
+		font-size: 14px;
+		margin-top: 12px;
+	}
+
+	.faq .accordion-button {
+		font-size: 15px;
+
+	}
+
+	.faq .accordion-button span {
+		font-size: 20px;
+		margin-right: 13px;
+	}
+
+	.faq .accordion-body {
+		font-size: 16px;
+		padding: 12px 15px;
+		padding-bottom: 22px;
+	}
+
+	/* FAQ part done */
+
+	.contact {
+		padding-top: 80px;
+		padding-bottom: 50px;
+	}
+
+	.contact img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.contact .left {
+		width: 100%;
+		height: 100%;
+	}
+
+	.contact .left .overlay {
+		left: 0;
+		width: 100%;
+		height: 100%;
+		padding-top: 30px;
+		padding-left: 30px;
+		padding-right: 30px;
+
+	}
+
+	.contact .left .overlay h3 {
+		font-size: 30px;
+		font-weight: 600;
+		font-family: 'Poppins', sans-serif;
+		color: white;
+		line-height: 34px;
+		width: auto;
+	}
+
+	.contact .left .overlay p {
+		font-size: 14px;
+		font-weight: 500;
+		font-family: 'Poppins', sans-serif;
+		color: white;
+		width: auto;
+		line-height: 21px;
+		padding-top: 15px;
+
+	}
+
+	.contact .right {
+		padding-top: 36px;
+		padding-left: 36px;
+		padding-right: 36px;
+		padding-bottom: 28px;
+	}
+
+	.contact .right p {
+		width: auto;
+		line-height: 23px;
+		padding-top: 8px;
+		padding-bottom: 34px;
+	}
+
+	.contact .right form input {
+		padding-left: 10px;
+
+	}
+
+	.contact .right form input::placeholder {
+		font-size: 14px;
+		line-height: 20px;
+
+	}
+
+	.contact .right button {
+		padding: 16px 32px;
+		font-size: 16px;
+		margin-top: 20px;
+		margin-bottom: 15px;
+
+
+	}
+
+	.contact .right button:hover {
+		background: #FCD980;
+	}
+
+	 .contact .row{
+		padding: 0;
+		margin: 0;
+	 }
+
+
+	 .contact .right .common-bt .cm-bt:hover .icon {
+		left: 323px;
+		opacity: 0;
+	}
+
+	/* contact part done  */
+
+	.footer {
+		padding-top: 70px;
+
+	}
+
+
+	.heading2{
+		text-align: center;
+	}
+
+	.blog .card {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.blog .card h4 {
+		font-size: 22px;
+		line-height: 31px;
+		width: auto;
+		padding: 12px 0;
+	}	
+
+	.blog .card p {
+		font-size: 16px;
+		width: auto;
+	} 
+
+	.blog .card .common-bt .cm-bt .icon {
+		opacity: 0;
+	}
+	/* blog part done */
+
+	.footer p {
+		line-height: 25px;
+width: auto;
+
+	}
+
+	.footer .footer-box {
+		padding-left: 17px;
+		padding-right: 0px;
+		margin-top: 32px;
+		width: 90%;
+		height: auto;
+		flex-wrap: wrap;
+		margin: 32px auto 50px auto;
+	}
+
+	.header{
+		text-align: center;
+	}
+
+	.footer h2 {
+		font-size: 43px;
+		line-height: 44px;
+		padding-bottom: 10px;
+	}
+	.footer .para {
+		line-height: 26px;
+
+	}
+
+	.footer-h{
+		text-align: center;
+	}
+
+	.footer ul {
+		justify-content: center;
+		align-items: center;
+	}
+	.footer ul li a{
+padding-bottom: 25px;
+display: inline-block;
+	}
+
+	footer .ul-2 {
+		column-gap: 8px;
+		flex-wrap: wrap;
+	}
+
+	footer .ul-2 li a {
+		font-size: 13px;
+	
+	}
+
+	.copy-2{
+		text-align: center;
+	
+		
+	}
+
+}
